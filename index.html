@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Bootstrap </title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="">Your logo</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#idea">Idea</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </form>  
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="text-center">
+                <h1>Today.</h1>
+                <h1><small>Make the most of it</small></h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-silde-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active example-1">
+            </div>
+            <div class="item example-2">
+            </div>
+            <div class="item example-3">
+            </div>
+            <div class="item example-4">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel header</div>    
+            <div class="panel-body">Basic panel example</div>
+            <div class="panel-footer">Panel footer</div>
+        </div>
+    </div>
+    <div class="gallery container" id="idea">
+        <h1 class="text-center">Gallery</h1>
+        <img class="img-responsive col-xs-12 col-sm-6 col-md-3" src="https://images.unsplash.com/photo-1507111742923-f41781b0bd90?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3feac92c377b388dee26f54c2d82e833&auto=format&fit=crop&w=640&q=426" alt="cyprus">
+        <img class="img-responsive col-xs-12 col-sm-6 col-md-3" src="https://images.unsplash.com/photo-1491403865995-cda9c458c314?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d475dda59fd26edbc98478461c42df01&auto=format&fit=crop&w=640&q=426" alt="chalet">
+        <img class="img-responsive col-xs-12 col-sm-6 col-md-3" src="https://images.unsplash.com/photo-1517792844039-e52afb564132?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc750174d379f9a3bfdeaabe3024363b&auto=format&fit=crop&w=640&q=426" alt="house">
+        <img class="image-responsive col-xs-12 col-sm-6 col-md-3" src="https://images.unsplash.com/photo-1414497370617-1d23dd92ab2d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1bb4ef35432f62b073a7d0b3c0717e3c&auto=format&fit=crop&w=640&q=426" alt="wood hut">
+    </div>
+    <div class="container" id="team"> 
+    <h1>Our team</h1>
+        <p>This table is a pilot table. Boostrap test.</p>
+        <table class="table table-bordered table striped table-hover text-center">
+          <thead>
+            <tr>
+                <th>Name</th>
+                <th>website</th>
+                <th>phone</th>
+            </tr>  
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Crane</td>
+                  <td>www.github.com/Monavik</td>
+                  <td>monikawmagda@gmail.com</td>
+              </tr>
+              <tr>
+                  <td>Parrot</td>
+                  <td>www.github.com/Monavik</td>
+                  <td>monikawmagda@gmail.com</td>
+              </tr>
+              <tr>
+                  <td>Duck</td>
+                  <td>www.github.com/Monavik</td>
+                  <td>monikawmagda@gmail.com</td>
+              </tr>
+          </tbody>
+        </table>
+    </div>
+    <div class="container team">
+        <div class="row">
+            <div class="col-md-2 parrot"><img src="https://images.pexels.com/photos/9291/nature-bird-flying-red.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bird" class="img-responsive img-thumbnail" data-toggle="tooltip" data-placement="top" title="top"></div>
+            <div class="col-md-2"><img src="https://images.pexels.com/photos/145378/pexels-photo-145378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bird" class="img-responsive img-thumbnail"></div>
+            <div class="col-md-2"><img src="https://images.pexels.com/photos/414181/pexels-photo-414181.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bird" class="img-responsive img-thumbnail"></div>
+            <div class="col-md-2"><img src="https://images.pexels.com/photos/792416/pexels-photo-792416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bird" class="img-responsive img-thumbnail"></div>
+            <div class="col-md-2"><img src="https://images.pexels.com/photos/162140/duckling-birds-yellow-fluffy-162140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bird" class="img-responsive img-thumbnail"></div>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a data-toggle="tab" href="#Landscapes">Landscapes</a></li>
+            <li><a data-toggle="tab" href="#Houses">Houses</a></li>
+            <li><a data-toggle="tab" href="#Food-and-drink">Food and Drink</a></li>
+            <li><a data-toggle="tab" href="#People">People</a></li>
+            <li><a data-toggle="tab" href="#Culture">Culture</a></li>
+        </ul>
+        <div class="tab-content landscapes" id="portfolio">
+            <div id="Landscapes" class="tab-pane fade in active">
+                <a><img src="https://images.unsplash.com/photo-1505868954261-144157311e7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=27b907fb390c6630aa9f847707976d6d&auto=format&fit=crop&w=750&q=80" class="col-md-3" alt="landscape"></a>
+                <p>In venenatis ac sem ut mattis. Suspendisse ac orci id erat maximus fermentum. Morbi nec posuere erat, vel dignissim lorem. Aenean finibus urna urna, non tristique augue maximus vel. In id tempus nibh. Donec vehicula libero quis luctus pulvinar. Fusce massa velit, finibus at consequat at, gravida sit amet risus. Praesent lorem nulla, rhoncus a nunc eget, congue ultricies dui. Nulla ullamcorper magna at lacus mattis, quis consectetur ante convallis. Suspendisse luctus mollis ante, id lacinia neque venenatis sed. Mauris ullamcorper nibh arcu, in pharetra dolor finibus a. Proin quam turpis, condimentum vitae dignissim aliquet, rhoncus eget nulla. Cras et est dolor. Etiam lacus est, volutpat non purus ac, luctus rhoncus turpis. Nulla id nisl tempus, dapibus est eu, semper lacus. Vestibulum velit mauris, eleifend vel neque sed, faucibus fermentum nisi. Nam a dui id mi vestibulum viverra vel vel odio. Aliquam tristique, ipsum ultricies pulvinar mollis, mi turpis accumsan augue, sit amet sagittis urna dolor dictum ex. Aenean facilisis elit ut leo hendrerit elementum.</p>
+            </div>
+            <div id="Houses" class="tab-pane fade">
+                <a><img src="https://images.unsplash.com/photo-1415301918039-3a58086adf06?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1323d13d3d2d28c091e9aecf547d3d1a&auto=format&fit=crop&w=750&q=80" class="col-md-3" alt="landscape"></a>
+                <p>In venenatis ac sem ut mattis. Suspendisse ac orci id erat maximus fermentum. Morbi nec posuere erat, vel dignissim lorem. Aenean finibus urna urna, non tristique augue maximus vel. In id tempus nibh. Donec vehicula libero quis luctus pulvinar. Fusce massa velit, finibus at consequat at, gravida sit amet risus. Praesent lorem nulla, rhoncus a nunc eget, congue ultricies dui. Nulla ullamcorper magna at lacus mattis, quis consectetur ante convallis. Suspendisse luctus mollis ante, id lacinia neque venenatis sed. Mauris ullamcorper nibh arcu, in pharetra dolor finibus a. Proin quam turpis, condimentum vitae dignissim aliquet, rhoncus eget nulla. Cras et est dolor. Etiam lacus est, volutpat non purus ac, luctus rhoncus turpis. Nulla id nisl tempus, dapibus est eu, semper lacus. Vestibulum velit mauris, eleifend vel neque sed, faucibus fermentum nisi. Nam a dui id mi vestibulum viverra vel vel odio. Aliquam tristique, ipsum ultricies pulvinar mollis, mi turpis accumsan augue, sit amet sagittis urna dolor dictum ex. Aenean facilisis elit ut leo hendrerit elementum.</p>
+            </div>
+            <div id="Food-and-drink" class="tab-pane fade">
+                <a><img src="https://images.unsplash.com/photo-1505868954261-144157311e7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=27b907fb390c6630aa9f847707976d6d&auto=format&fit=crop&w=750&q=80" class="col-md-8" alt="landscape"></a>
+                <p>In venenatis ac sem ut mattis. Suspendisse ac orci id erat maximus fermentum. Morbi nec posuere erat, vel dignissim lorem. Aenean finibus urna urna, non tristique augue maximus vel. In id tempus nibh. Donec vehicula libero quis luctus pulvinar. Fusce massa velit, finibus at consequat at, gravida sit amet risus. Praesent lorem nulla, rhoncus a nunc eget, congue ultricies dui. Nulla ullamcorper magna at lacus mattis, quis consectetur ante convallis.</p>
+            </div>
+            <div id="People" class="tab-pane fade">
+                <a><img src="https://images.unsplash.com/photo-1415301918039-3a58086adf06?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1323d13d3d2d28c091e9aecf547d3d1a&auto=format&fit=crop&w=750&q=80" class="col-md-10" alt="landscape"></a>
+                <p>In venenatis ac sem ut mattis. Suspendisse ac orci id erat maximus fermentum. Morbi nec posuere erat, vel dignissim lorem. Aenean finibus urna urna, non tristique augue maximus vel. In id tempus nibh. Donec vehicula libero quis luctus pulvinar. Fusce massa velit, finibus at consequat at, gravida sit amet risus. Praesent lorem nulla, rhoncus a nunc eget, congue ultricies dui. Nulla ullamcorper magna at lacus mattis, quis consectetur ante convallis.Suspendisse luctus mollis ante, id lacinia neque venenatis sed. Mauris ullamcorper nibh arcu, in pharetra dolor finibus a. Proin quam turpis, condimentum vitae dignissim aliquet, rhoncus eget nulla. Cras et est dolor. Etiam lacus est, volutpat non purus ac, luctus rhoncus turpis. Nulla id nisl tempus, dapibus est eu, semper lacus. Vestibulum velit mauris, eleifend vel neque sed, faucibus fermentum nisi. Nam a dui id mi vestibulum viverra vel vel odio. Aliquam tristique, ipsum ultricies pulvinar mollis, mi turpis accumsan augue, sit amet sagittis urna dolor dictum ex. Aenean facilisis elit ut leo hendrerit elementum.</p>
+            </div>
+            <div id="Culture" class="tab-pane fade">
+                <a><img src="https://images.unsplash.com/photo-1505868954261-144157311e7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=27b907fb390c6630aa9f847707976d6d&auto=format&fit=crop&w=750&q=80" class="col-md-8" alt="landscape"></a>
+                <p>In venenatis ac sem ut mattis. Suspendisse ac orci id erat maximus fermentum. Morbi nec posuere erat, vel dignissim lorem. Aenean finibus urna urna, non tristique augue maximus vel. In id tempus nibh. Donec vehicula libero quis luctus pulvinar. Fusce massa velit, finibus at consequat at, gravida sit amet risus. Praesent lorem nulla, rhoncus a nunc eget, congue ultricies dui. Nulla ullamcorper magna at lacus mattis, quis consectetur ante convallis.Suspendisse luctus mollis ante, id lacinia neque venenatis sed. Mauris ullamcorper nibh arcu, in pharetra dolor finibus a. Proin quam turpis, condimentum vitae dignissim aliquet, rhoncus eget nulla. Cras et est dolor. Etiam lacus est, volutpat non purus ac, luctus rhoncus turpis. Nulla id nisl tempus, dapibus est eu, semper lacus. Vestibulum velit mauris, eleifend vel neque sed, faucibus fermentum nisi. Nam a dui id mi vestibulum viverra vel vel odio. Aliquam tristique, ipsum ultricies pulvinar mollis, mi turpis accumsan augue, sit amet sagittis urna dolor dictum ex. Aenean facilisis elit ut leo hendrerit elementum.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <form>
+            <div class="form-group form-height">
+                <label for="name">Imię:</label><br>
+                <input type="text" class="form-control" id="name" required><br><br>
+            </div>
+            <div class="form-group form-height">
+                <label for="email">email:</label><br>
+                <input type="email" class="form-control" id="email" required><br><br>
+            </div>
+            <div class="form-group">
+                <label>Treść wiadomości</label><br>
+                <textarea class="form-control" rows="3" required></textarea><br>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <div class="container">
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="http://placehold.it/50x50" alt="">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Guest</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+            </div>
+        </div>
+    </div> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>    
+</body>
+</html>
