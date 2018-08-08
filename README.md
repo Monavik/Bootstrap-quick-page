@@ -1,4 +1,4 @@
-### Checking Bootstrap 
+### Checking Bootstrap - simple page
 
 * HTML
 * CSS
